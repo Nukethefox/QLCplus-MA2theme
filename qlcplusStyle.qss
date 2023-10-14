@@ -1,0 +1,294 @@
+/* QLC+ GrandMA2 Theme by Nuke The Fox */
+
+/* MAIN WINDOW */
+QMainWindow, QDialog { 
+  background-color: #2c2c2c; 
+  color: white;
+}
+
+
+/* SPLITTER */
+QSplitter::handle {
+  background-color: #2c2c2c;
+  border: 0px;
+}
+VLine {
+  background-color: #2c2c2c;
+}
+
+/* FIXTURES AND IN-OUT DETAILS */
+QTextBrowser {
+  background-color: #2c2c2c; 
+  color: white;
+  font-size: 15px;
+}
+
+/* TOOLBAR BUTTONS */
+QToolButton {
+  color: yellow;
+  border: 1px solid #e3a500;
+  border-radius: 5px;
+  background: #000000;
+}
+QToolBar {
+  background: #2c2c2c;
+  color: white;
+}
+
+/* TABS */
+QTabBar::tab {
+  background: #000000;
+  color: white;
+  border: 1px solid #e3a500;
+  border-radius: 5px;
+  padding: 10px; 
+  width: 10em; 
+  height: 25px;
+  font-size: 15px;
+}
+QTabBar::tab:selected {
+  color: #d6d800;
+  border: 1px solid #e3a500;
+  border-radius: 5px;
+}
+QTabWidget::pane {
+  border: 0px;
+}
+QTabWidget::tab-bar {
+  left: 5px; /* move to the right by 5px */
+}
+
+
+/* CONSOLE BUTTONS */
+FixtureConsole QToolButton {
+  background: #000000;
+  padding: 5px;
+  border: 1px solid #e3a500;
+  border-radius: 5px;
+}
+
+EFXEditor QWidget:editable 
+{
+  background-color: #2c2c2c;
+  color: white;
+}
+
+
+/* LABELS */
+QLabel {
+  color: white;
+  padding: 3px;
+  font-size: 15px;
+}
+MonitorFixture QLabel {
+  color: black;
+}
+
+
+/* Checkbox and radio button */
+QCheckBox {
+  color: white;
+  font-size:15px;
+}
+QRadioButton{
+  color: white;
+  font-size:15px;
+}
+
+/* HEADERS */
+QHeaderView {
+  border: 1px solid #E8A901;
+  background-color: #E8A901;
+  font-size:15px;
+}
+QHeaderView::section {
+  background: black;
+  color: white;
+  border: 1px solid #E8A901;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+/* TREE VIEWS (Fixtures and I/O Selection) */
+QTreeWidget, QTreeView { 
+  background-color: #2c2c2c; 
+  color: white; 
+  font-size:15px;
+}
+QTreeWidget::item, QTreeView::item {  
+  border: 1px solid #2c2c2c;
+  background-color: #424242;
+}
+QTreeWidget::item:selected, QTreeView::item:selected {
+  border: 2px solid #f8fc00;
+}
+QTreeWidget::item:selected:!active, QTreeView::item:selected:!active {
+  border: 2px solid #f8fc00;
+  color: white;
+}
+
+/* LISTS (universes, etc) */
+QListWidget{
+  background-color: #2c2c2c; 
+  color: white; 
+  font-size: 15px;
+}
+QListWidget::item{
+  background-color: #2c2c2c; 
+  color: white; 
+  font-size: 15px;
+}
+
+/* TEXT FIELDS */
+QComboBox {
+  background: #004000;
+  border-radius: 5px;
+  border: 1px solid #b38407;
+  color: white;
+  padding: 1px;
+  font-size: 15px;
+}
+QComboBox QAbstractItemView {
+  background: #000000;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #b38407;
+  selection-color: white;
+  selection-background-color: #005000;
+  font-size: 15px;
+}
+QComboBox:on {
+  selection-background-color: #005000;
+  background: #004000;
+  font-size: 15px;
+}
+QLineEdit{
+  background-color: #004000;
+  color: white;
+  padding: 1px;
+  border: 1px solid #b38407;
+  border-radius: 5px;
+  font-size: 15px;
+}
+QPushButton{
+  background-color: #000000;
+  color: white;
+  border: 1px solid #b38407;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
+QSpinBox{
+  background-color: #004000;
+  color: white;
+  border: 1px solid #b38407;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 1px;
+}
+
+
+
+
+/* ##### GrandMaster Label ##### */
+GrandMasterSlider QLabel{
+  color: black;
+  font-size: 10px;
+}
+
+
+
+
+/* SCROLLBARS */
+QAbstractScrollArea::corner { 
+  background: #2c2c2c;
+}
+QScrollBar:vertical {
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  width: 30px;
+  margin: 25px 0 25px 0;
+}
+QScrollBar:horizontal {
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+  background-color: #2c2c2c;
+  height: 30px;
+  margin: 0 21px 0 21px;
+}
+QScrollBar::handle:vertical {
+  background-color: #000000;
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+  min-height: 25px;
+}
+QScrollBar::handle:horizontal {
+  background-color: #000000;
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+  min-width: 25px;
+}
+QScrollBar::handle:hover {
+  background-color: #3b2b00;
+}
+QScrollBar::add-line:vertical {
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+  background-color: #000000;
+  height: 20px;
+  subcontrol-position: bottom;
+  subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+  background-color: #000000;
+  height: 20px;
+  subcontrol-position: top;
+  subcontrol-origin: margin;
+}
+QScrollBar::add-line:horizontal {
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+  background-color: #000000;
+  width: 20px;
+  subcontrol-position: right;
+  subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+  background-color: #000000;
+  width: 20px;
+  subcontrol-position: left;
+  subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+  background: #2c2c2c;
+  border-radius: 5px;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+  background: #2c2c2c;
+  border-radius: 5px;
+}
+QScrollBar::up-arrow:vertical{
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+}
+QScrollBar::down-arrow:vertical{
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+}
+QScrollBar::left-arrow:horizontal{
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+}
+QScrollBar::right-arrow:horizontal{
+  border: 1px solid #c58f01;
+  border-radius: 5px;
+}
+
+
+
+
