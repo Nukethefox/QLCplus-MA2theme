@@ -1,3 +1,4 @@
+============== MAIN
 /* QLC+ GrandMA2 Theme by Nuke The Fox */
 
 /* MAIN WINDOW */
@@ -6,20 +7,13 @@ QMainWindow, QDialog {
   color: white;
 }
 
-/* WIGDETS AND VIEWS */
 QGroupBox {
   color: white;
-  font-size: 15px;
   background: #2c2c2c;
+  font-size: 15px;
 }
 QFrame {
-  color: white;
-  font-size: 15px;
   background: #2c2c2c;
-}
-EFXEditor QWidget:editable 
-{
-  background-color: #2c2c2c;
   color: white;
 }
 
@@ -80,6 +74,12 @@ FixtureConsole QToolButton {
   padding: 5px;
   border: 1px solid #e3a500;
   border-radius: 5px;
+}
+
+EFXEditor QWidget:editable 
+{
+  background-color: #2c2c2c;
+  color: white;
 }
 
 /* LABELS */
@@ -194,12 +194,6 @@ QSpinBox{
   padding: 1px;
 }
 
-/* GrandMaster Label */
-GrandMasterSlider QLabel{
-  color: black;
-  font-size: 10px;
-}
-
 /* SCROLLBARS */
 QAbstractScrollArea::corner { 
   background: #2c2c2c;
@@ -287,5 +281,42 @@ QScrollBar::left-arrow:horizontal{
 }
 QScrollBar::right-arrow:horizontal{
   border: 1px solid #c58f01;
+  border-radius: 5px;
+}
+============== SIMPLE_DESK_NONE
+QGroupBox {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+============== SIMPLE_DESK_EVEN
+QGroupBox {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+============== SIMPLE_DESK_ODD
+QGroupBox {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+}
+============== SIMPLE_DESK_OVERRIDE
+QGroupBox {
+  border: 1px solid yellow;
+  border-radius: 5px;
+}
+============== GRANDMASTER
+QFrame {
+  color: white;
+  font-size: 10px;
+  background-color: #2c2c2c;
+  border: 1px solid #747474;
   border-radius: 5px;
 }
