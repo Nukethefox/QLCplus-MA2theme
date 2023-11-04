@@ -309,7 +309,7 @@ QGroupBox {
 }
 ============== SIMPLE_DESK_OVERRIDE
 QGroupBox {
-  border: 1px solid yellow;
+  border: 2px solid #ffff80;
   border-radius: 5px;
 }
 ============== GRANDMASTER
