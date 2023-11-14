@@ -31,6 +31,8 @@ QTextBrowser {
   background-color: #2c2c2c; 
   color: white;
   font-size: 15px;
+  border: 3px solid #e3a500;
+  border-radius: 10px;
 }
 
 /* TOOLBAR BUTTONS */
@@ -51,8 +53,8 @@ QTabBar::tab {
   color: white;
   border: 1px solid #e3a500;
   border-radius: 5px;
-  padding: 10px; 
-  width: 10em; 
+  padding: 10px;
+  width: 8em; 
   height: 25px;
   font-size: 15px;
 }
@@ -103,21 +105,27 @@ QRadioButton{
 }
 
 /* HEADERS */
+QAbstractHeaderArea::corner{
+  background: #2c2c2c;
+}
 QHeaderView {
-  border: 1px solid #E8A901;
-  background-color: #E8A901;
+  border: 1px solid #2c2c2c;
+  border-radius: 10px;
+  background-color: #2c2c2c;
   font-size:15px;
 }
 QHeaderView::section {
-  background: black;
+  background: #00008c;
   color: white;
-  border: 1px solid #E8A901;
+  border: 1px solid #0000dd;
   border-radius: 5px;
   padding: 3px;
 }
 
 /* TREE VIEWS (Fixtures and I/O Selection) */
 QTreeWidget, QTreeView { 
+  border: 3px solid #e3a500;
+  border-radius: 10px;
   background-color: #2c2c2c; 
   color: white; 
   font-size:15px;
@@ -136,6 +144,8 @@ QTreeWidget::item:selected:!active, QTreeView::item:selected:!active {
 
 /* LISTS (universes, etc) */
 QListWidget{
+  border: 3px solid #e3a500;
+  border-radius: 10px;
   background-color: #2c2c2c; 
   color: white; 
   font-size: 15px;
@@ -184,6 +194,12 @@ QPushButton{
   border-radius: 5px;
   font-size: 15px;
   padding: 5px;
+}
+QPushButton::pressed {
+  color: #d6d800;
+}
+QPushButton::checked {
+  color: #d6d800;
 }
 QSpinBox{
   background-color: #004000;
