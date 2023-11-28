@@ -336,3 +336,75 @@ QFrame {
   border: 1px solid #747474;
   border-radius: 5px;
 }
+============== FIXTURE_CONSOLE_COMMON
+QGroupBox::title {
+  top:-15px;
+  left: 12px;
+  subcontrol-origin: border;
+  background-color: transparent;
+}
+QGroupBox::indicator {
+  width: 18px;
+  height: 18px;
+}
+QGroupBox::indicator:checked {
+  image: url(:/checkbox_full.png)
+}
+QGroupBox::indicator:unchecked {
+  image: url(:/checkbox_empty.png)
+}
+============== FIXTURE_CONSOLE_NORMAL
+QGroupBox {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+  border-radius: 4px;
+  margin-top: %1px;
+  margin-right: 1px;
+}
+============== FIXTURE_CONSOLE_EVEN
+QGroupBox {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+  border-radius: 4px;
+  margin-top: %1px;
+  margin-right: 1px;
+}
+============== FIXTURE_CONSOLE_ODD
+QGroupBox {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+  border-radius: 4px;
+  margin-top: %1px;
+  margin-right: 1px;
+}
+
+============== CONSOLE_CHANNEL_COMMON
+QSlider::groove:vertical {
+  background: transparent;
+  width: 32px;
+}
+QSlider::handle:vertical {
+  background: #000000;
+  border: 1px solid #747474;
+  border-radius: 4px;
+  margin: 0 -1px;
+  height: 20px;
+}
+QSlider::handle:vertical:hover {
+  background: #000;
+  border: 2px solid #ffff80;
+}
+QSlider::add-page:vertical {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+  margin: 0 13px;
+}
+QSlider::sub-page:vertical {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+  margin: 0 13px;
+}
+QSlider::handle:vertical:disabled {
+  background: #2c2c2c;
+  border: 1px solid #747474;
+}
