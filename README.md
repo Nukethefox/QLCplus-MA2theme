@@ -3,6 +3,6 @@ grandMA2 Theme for QLC+ by Nuke The Fox.
 Just place the stylesheet on \Users\your_user\QLC+.
 Remember to use the latest build for QLC+, you can find it in the "qlcplus" GitHub.
 
-![qlcplus simple desk](https://github.com/Nukethefox/QLCplus-MA2theme/assets/125735099/28592f58-5538-45fd-a26c-60b27b66d8b3)
+![qlc_simple_desk](https://github.com/Nukethefox/QLCplus-MA2theme/assets/125735099/ae4ae8b4-fea9-4857-8a09-6926beff2e48)
 
-![qlcplus functions](https://github.com/Nukethefox/QLCplus-MA2theme/assets/125735099/4641734c-2d90-4369-bdaa-f46b0e37de16)
+![qlc_functions](https://github.com/Nukethefox/QLCplus-MA2theme/assets/125735099/22165822-1ef4-4ed5-9673-b40c186f4544)
