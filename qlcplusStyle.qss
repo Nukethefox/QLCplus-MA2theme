@@ -96,12 +96,24 @@ MonitorFixture QLabel {
 
 /* Checkbox and radio button */
 QCheckBox {
-  color: white;
+  color: #ffffff;
   font-size:15px;
 }
-QRadioButton{
-  color: white;
+QCheckBox::indicator {
+  background: #000000;
+}
+QCheckBox::indicator:checked {
+  background: #d6d800;
+}
+QRadioButton {
+  color: #ffffff;
   font-size:15px;
+}
+QRadioButton::indicator {
+  background: #000000;
+}
+QRadioButton::indicator:checked {
+  background: #d6d800;
 }
 
 /* HEADERS */
