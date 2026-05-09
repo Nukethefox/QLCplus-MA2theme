@@ -1,7 +1,6 @@
 # QLCplus-MA2theme
 grandMA2 Theme for QLC+ by Nuke The Fox.
-Just place the stylesheet on \Users\your_user\QLC+.
-Remember to use the latest build for QLC+, you can find it in the "qlcplus" GitHub.
+Just place the stylesheet on \Users\your_user\QLC+ (windows) or User\Library\Application Support\QLC+ (MacOS).
 
 ![qlc_simple_desk](https://github.com/Nukethefox/QLCplus-MA2theme/assets/125735099/ae4ae8b4-fea9-4857-8a09-6926beff2e48)
 
